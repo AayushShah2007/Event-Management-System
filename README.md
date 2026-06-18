@@ -240,21 +240,6 @@ CREATE TABLE coupons (
 );
 ```
 
----
-
-## 🌐 API Endpoints
-
-| Route | Method | Description |
-|---|---|---|
-| `/api/admin/users` | GET | Fetch all users (Auth + profiles + addresses) |
-| `/api/admin/coupons` | GET/POST/PATCH/DELETE | Full coupon CRUD |
-| `/api/coupons/validate` | POST | Validate coupon code |
-| `/api/coupons/visible` | GET | List active + visible coupons |
-| `/api/send-otp` | POST | Send OTP via Resend email |
-| `/api/reviews` | GET/POST/DELETE | Reviews CRUD |
-| `/api/upload` | POST | Upload image to Supabase Storage |
-| `/api/user-meta` | GET | Fetch user metadata |
-| `/api/setup/database` | POST | Database migrations |
 
 ---
 
@@ -307,12 +292,6 @@ npm run dev
 # Open http://localhost:3000
 ```
 
-### Admin Access
-Hardcoded admin emails (configure in `app/admin/layout.tsx`):
-- `kinjal2506shah@gmail.com`
-- `aayushshah458@gmail.com`
-
----
 
 ## 📁 Project Structure
 
@@ -351,8 +330,3 @@ Hardcoded admin emails (configure in `app/admin/layout.tsx`):
 - **No real payment gateway**: Payment is simulated with a 2-second delay (ready to integrate Razorpay/Cashfree/Stripe)
 - **Custom Supabase REST client**: Uses raw fetch instead of Supabase JS SDK for lightweight, timeout-controlled queries
 
----
-
-## 📄 License
-
-MIT
