@@ -18,7 +18,7 @@ interface Props {
   filename: string;
   columns: Column[];
   data: Record<string, any>[];
-  onBeforeDownload?: (format: "pdf" | "csv") => Promise<void> | void;
+  onBeforeDownload?: (format: "pdf" | "csv") => Promise<boolean | void> | boolean | void;
   hideCsv?: boolean;
 }
 
