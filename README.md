@@ -7,7 +7,7 @@
   <a href="#tech-stack">Tech Stack</a> ·
   <a href="#user-flow">User Flow</a> ·
   <a href="#admin-panel">Admin Panel</a> ·
-  <a href="#getting-started">Getting Started</a> ·
+  <a href="https://event-management-promoting-system.vercel.app" target="_blank">Live Demo</a> ·
   <a href="#database">Database</a> ·
   <a href="#api">API</a>
 </div>
@@ -243,6 +243,12 @@ CREATE TABLE coupons (
 
 ---
 
+## 🌐 Live Demo
+
+[https://event-management-promoting-system.vercel.app](https://event-management-promoting-system.vercel.app)
+
+---
+
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -276,7 +282,7 @@ SUPABASE_SERVICE_ROLE_KEY=your-service-role-key
 RESEND_API_KEY=re_xxxxxxxxxxxx
 
 # App
-NEXT_PUBLIC_APP_URL=http://localhost:3000
+NEXT_PUBLIC_APP_URL=https://event-management-promoting-system.vercel.app
 ```
 
 ### Database Setup
